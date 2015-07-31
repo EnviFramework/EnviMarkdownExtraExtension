@@ -1,8 +1,8 @@
 name: "markdown"
-type": "extension"
+type: "extension"
 description: "MarkdownExtraを使用するためのエクステンションクラス"
-keywords: "markdown,MarkdownExtra",
-homepage: "http://www.enviphp.net/",
+keywords: "markdown,MarkdownExtra"
+homepage: "http://www.enviphp.net/"
 license: "LGPL-2.0"
 authors:
     -
