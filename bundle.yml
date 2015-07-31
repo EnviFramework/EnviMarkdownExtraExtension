@@ -16,13 +16,13 @@ support:
     forum: "https://github.com/EnviMVC/EnviMarkdownExtension/issues"
 require: {
     php: ">=5.2"
-    envi: ">=3.0"
+    envi: ">=3.4.8"
 install:
     version:"@new"
     mode: "git"
     clone: "https://github.com/EnviMVC/EnviMarkdownExtension.git"
 depend:
-    lessphp:
+    markdown:
         install_path: "libs/Michelf/"
         version: "1.4.0"
         mode: "git"
