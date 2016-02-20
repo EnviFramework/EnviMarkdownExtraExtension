@@ -15,7 +15,7 @@ https://michelf.ca/projects/php-markdown/extra/
 --------------------------------------------------
 EnviMarkdownExtensionパッケージをEnviMvcにバンドルさせるには、
 
-`envi install-bundle new https://raw.githubusercontent.com/EnviMVC/EnviMarkdownExtension/master/bundle.yml`
+`envi install-bundle new https://raw.githubusercontent.com/EnviMVC/EnviMarkdownExtraExtension/master/bundle.yml`
 
 コマンドを実行します。
 
@@ -24,7 +24,7 @@ EnviMarkdownExtensionパッケージをEnviMvcにバンドルさせるには、
 
 パッケージがバンドルされていれば、
 
-`envi install-extension {app_key} {DI設定ファイル} markdown`
+`envi install-extension {app_key} {DI設定ファイル} markdown_extra`
 
 コマンドでインストール出来ます。
 

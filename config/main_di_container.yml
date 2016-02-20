@@ -1,17 +1,17 @@
 
-  Markdown:
+  MarkdownExtra:
   ################################
-  # extension()->Markdown()‚Ìİ’è
+  # extension()->Markdown()ã®è¨­å®š
   ################################
-    ## ‚±‚±‚ğtrue‚É‚·‚é‚ÆAƒŠƒNƒGƒXƒg‚²‚Æ‚Éƒ[ƒh‚³‚êAƒIƒuƒWƒFƒNƒg‚ª¶¬‚³‚ê‚Ü‚·
+    ## ã“ã“ã‚’trueã«ã™ã‚‹ã¨ã€ãƒªã‚¯ã‚¨ã‚¹ãƒˆã”ã¨ã«ãƒ­ãƒ¼ãƒ‰ã•ã‚Œã€ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆãŒç”Ÿæˆã•ã‚Œã¾ã™
     constant: false
     class:
-      ## ƒtƒ@ƒCƒ‹‚ÌÀ‘Ô
-      resource: "<?php echo ENVI_BASE_DIR.'..'.DIRECTORY_SEPARATOR.'extensions'.DIRECTORY_SEPARATOR.'markdown'.DIRECTORY_SEPARATOR;?>EnviMarkdownExtension.php"
-      ## ƒNƒ‰ƒX–¼
-      class_name: "EnviMarkdownExtension"
-      ## ƒVƒ“ƒOƒ‹ƒgƒ“‰»‚·‚é‚©
+      ## ãƒ•ã‚¡ã‚¤ãƒ«ã®å®Ÿæ…‹
+      resource: "<?php echo ENVI_BASE_DIR.'..'.DIRECTORY_SEPARATOR.'extensions'.DIRECTORY_SEPARATOR.'markdown'.DIRECTORY_SEPARATOR;?>EnviMarkdownExtraExtension.php"
+      ## ã‚¯ãƒ©ã‚¹å
+      class_name: "EnviMarkdownExtraExtension"
+      ## ã‚·ãƒ³ã‚°ãƒ«ãƒˆãƒ³åŒ–ã™ã‚‹ã‹
       singleton: true
     router:
-      ## extension‚Ìİ’è‚ÌƒpƒX
+      ## extensionã®è¨­å®šã®ãƒ‘ã‚¹
       resource: "<?php echo dirname(__FILE__).DIRECTORY_SEPARATOR.$app_name.'_markdown.yml';?>"

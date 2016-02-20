@@ -53,7 +53,7 @@ use \Michelf\Markdown, \Michelf\SmartyPants,\Michelf\MarkdownExtra;
  * @see        https://github.com/EnviMVC/EnviMVC3PHP/wiki
  * @since      Class available since Release 1.0.0
  */
-class EnviMarkdownExtension
+class EnviMarkdownExtraExtension
 {
     private $system_conf;
 
