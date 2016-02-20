@@ -7,7 +7,7 @@
     constant: false
     class:
       ## ファイルの実態
-      resource: "<?php echo ENVI_BASE_DIR.'..'.DIRECTORY_SEPARATOR.'extensions'.DIRECTORY_SEPARATOR.'markdown'.DIRECTORY_SEPARATOR;?>EnviMarkdownExtraExtension.php"
+      resource: "<?php echo ENVI_BASE_DIR.'..'.DIRECTORY_SEPARATOR.'extensions'.DIRECTORY_SEPARATOR.'markdown_extra'.DIRECTORY_SEPARATOR;?>EnviMarkdownExtraExtension.php"
       ## クラス名
       class_name: "EnviMarkdownExtraExtension"
       ## シングルトン化するか
