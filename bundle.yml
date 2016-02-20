@@ -18,7 +18,7 @@ require: {
     php: ">=5.2"
     envi: ">=3.4.8"
 install:
-    version: "v1.2"
+    version: "v1.3"
     mode: "git"
     clone: "https://github.com/EnviMVC/EnviMarkdownExtraExtension.git"
 depend:
