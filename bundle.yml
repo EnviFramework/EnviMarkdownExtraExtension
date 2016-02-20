@@ -1,4 +1,4 @@
-name: "markdown"
+name: "markdown_extra"
 type: "extension"
 description: "MarkdownExtraを使用するためのエクステンションクラス"
 keywords: "markdown,MarkdownExtra"
@@ -12,15 +12,15 @@ authors:
         name: "suzunone"
         email: "suzunone.eleven@gmail.com"
 support:
-    issues: "https://github.com/EnviMVC/EnviMarkdownExtension/issues"
-    forum: "https://github.com/EnviMVC/EnviMarkdownExtension/issues"
+    issues: "https://github.com/EnviMVC/EnviMarkdownExtraExtension/issues"
+    forum: "https://github.com/EnviMVC/EnviMarkdownExtraExtension/issues"
 require: {
     php: ">=5.2"
     envi: ">=3.4.8"
 install:
     version: "v1.1"
     mode: "git"
-    clone: "https://github.com/EnviMVC/EnviMarkdownExtension.git"
+    clone: "https://github.com/EnviMVC/EnviMarkdownExtraExtension.git"
 depend:
     markdown:
         homepage: "https://michelf.ca/projects/php-markdown/extra/"
